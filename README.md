@@ -18,7 +18,8 @@ Respuesta: Investigando un poco, vi que el atributo src indica la ruta hacia el 
 donde esta ubicada la imagen, asi cambia tambien el valor. 
 Entonces, si la imagen esta en la misma carpeta que la pagina web: el atributo src solo necesita el nombre del archivo.
 Pero si la imagen está en una carpeta superior:
-Debo usar ../ para subir un nivel en la estructura de carpetas. Es decir, si la imagen está una carpeta arriba, la estructura seria la siguiente: 
-** "<img src="../imagen.jpg" alt="Imagen">"
+Debo usar ../ para subir un nivel en la estructura de carpetas. Es decir, si la imagen está una carpeta arriba, la sintaxis
+seria igual en html, solo que luego de "src = " colocamos "../" para indicar la ruta de la imagen correctamente. 
+
 
 
